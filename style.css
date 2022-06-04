@@ -87,11 +87,11 @@ color: aliceblue;
     padding:  0 30px;
 }
 .nav ul #home-nav:hover{
-    color: #000;
+    color: #000; 
 }
 .nav ul li:hover{
-    background-color: white;
-    color: #000;
+     background-color: white;
+    color: #000; 
     
 }
 .slogun{
@@ -111,10 +111,10 @@ color: aliceblue;
 }
 p{
     color: gray;
-    font-size: 24px;
+    font-size: 20px;
     position: absolute;
     top: 80px;
-    left: 610px;
+    left: 450px;
     font-style: italic;
 
 
