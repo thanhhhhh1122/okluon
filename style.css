@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header-top{
+    background-color: aqua;
+    width: auto;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    /* position: fixed; */
+}
+.edu_vp{
+    padding: 20px 40px;
+   
+}
+.header-topright a{
+    color: black;
+    line-height: 50px;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 24px;
+    font-variant: small-caps;
+}
+.header-topright a:hover{
+    color: red;
+}
+.text{
+    padding: 6px;
+}
+.header-center{
+    position: relative;
+}
+.header-center .bg{
+     width: 100%;
+     height: 130px;
+}
+.logo1{
+    position: absolute;
+    top: 20px;
+    left:  20px;
+}
+.logo2{
+    position: absolute;
+    top:10px;
+    right: 100px;
+}
+.namesite{
+    font-size: 30px;
+    position: absolute; 
+   top: 30px; 
+    left:  150px;
+    text-decoration: none;
+}
+.namesite2{
+    text-decoration: none;
+  color: red;
+    font-size: 24px;
+    position: absolute; 
+    top: 70px; 
+     left:  150px;
+
+}
+.nav{
+ width: auto;
+ height: 50px;
+background-color: #186BCC;
+text-align: center;
+line-height: 50px;
+color: aliceblue;
+
+}
+#home-nav{
+    color: aliceblue;
+}
+.nav li a{
+   
+
+    font-size: 16px;
+}
+.nav ul li{
+    border-right: 1px solid black;
+    display: inline-block;
+    padding:  0 30px;
+}
+.nav ul #home-nav:hover{
+    color: #000;
+}
+.nav ul li:hover{
+    background-color: white;
+    color: #000;
+    
+}
+.slogun{
+    width: 1400px;
+    height: 40px;
+    color: red;
+    font-size: 24;
+    line-height: 40px;
+}
+.big-infomation{
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns:70% 30% ;
+} .articel {
+    position: relative;
+    
+}
+p{
+    color: gray;
+    font-size: 24px;
+    position: absolute;
+    top: 80px;
+    left: 610px;
+    font-style: italic;
+
+
+}
+.articel .tieude{
+    position: absolute;
+    padding-left: 10px;
+    top: 25px;
+    text-decoration: none;
+    font-size: 24px;
+}
+ h2{
+    text-align: center;
+    padding-top: 10px;
+    color: #186BCC;
+}
+.aside{
+    position: relative;
+}
+.aside a{
+    font-size: 20px;
+    padding: 10px 0;
+    text-decoration: none;
+    display: block;
+    color: #3C3C3C;
+    border-bottom: 1px solid #000;
+} .hot{
+    position: absolute;
+    top: 250px;
+right: 0px;
+} 
+#icon1{
+    font-size: 5px;
+  color: red;
+}
+#icon2{
+    font-size: 5px;
+  color: red;
+
+}
+
+#icon3{
+    font-size: 5px;
+  color: red;
+
+}
+.articel-annouce{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+}
+.articel-annouce a{
+    text-decoration: none;
+}
+.footer{
+    background-color: aqua;
+    position: relative;
+    width: 100%;
+    height: 150px;
+}
+.img-footer{
+    position: absolute;
+    top: 20px;
+    left:  200px;
+}
+.footer .info{
+    font-size: 20px;
+    position: absolute;
+    top : 30px;
+    left: 350px;
+}
